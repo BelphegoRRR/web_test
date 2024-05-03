@@ -1,0 +1,187 @@
+html{
+    font-size: 20px;
+}
+
+
+
+
+
+.header{
+    background-color:  #534141 ;
+    color:rgb(56, 45, 45);
+    text-align: center;
+    padding: 10px;
+    font-family: "Micro 5", sans-serif;
+    
+}
+
+.header h1{
+    font-size: 4rem;
+    margin-bottom: 1px;
+}
+.navigation{
+    background-color: rgb(180, 214, 214);
+    text-align: center;
+    height: 30px;
+    
+}
+.navigation a{
+    color: rgb(72, 65, 65);
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.navigation a:hover{
+    
+    color: rgb(255, 255, 255);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.myProjects{
+    color: rgb(180, 214, 214); 
+    margin-top: 10px;
+    text-align: center;
+}
+.myArtSamples{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("rainBow.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sample{
+    width: 20%;
+
+}
+
+.myArtSamples img{
+border: 0.25rem solid rgb(115, 94, 94);
+    border-radius: 0.25rem;
+    width: 100%;
+    display: block;
+    
+}
+
+.myArtSamples img:hover{
+    border: 0.25rem solid rgb(233, 196, 196);
+}
+
+.textBox{
+    width: 100%;
+    height: 10rem;
+    background-color:rgb(184, 147, 147);
+    border: 0.25rem solid rgb(184, 147, 147);
+    margin-top: -10px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(115, 94, 94);
+    font-family: "Micro 5", sans-serif;
+}
+
+.textBox:hover{
+    color: rgb(218, 192, 192);
+}
+
+.AboutMe{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.textAboutMe{
+    background-color: rgb(180, 214, 214);
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.ImgAboutMe{
+    width: 50%;
+
+}
+
+.ImgAboutMe img{
+    width: 100%;
+}
+
+
+.zontik{
+    width: 95%;
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.instatok{
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.instatokImages{
+    margin-left: 3rem;
+    display: flex;
+
+    width: 40%;
+
+
+}
+
+.instatok img{
+    margin-left: 3rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.instatokImages img:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+
+}
+
+.hai{
+    width: 60%;
+}
+
+
+@media screen and (max-width:1366px) {
+    html{font-size: 13px;}
+
+}
+
+
+@media screen and (max-width:768px) {
+    html{font-size: 7px;}
+
+}
+
+
+@media screen and (max-width:440px) {
+    html{font-size: 4px;}
+
+}
